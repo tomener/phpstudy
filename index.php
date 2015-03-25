@@ -8,7 +8,9 @@ var_dump($_SERVER);
 
 class UserController {
 	
+	private $storage;
+
 	public function index() {
-		echo 1;
+		$this->storage = 100;
 	}
 }
